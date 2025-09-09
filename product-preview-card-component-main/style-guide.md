@@ -31,7 +31,7 @@ The designs were created to the following widths:
 
 ### Font
 
-- Family: [Montserrat](https://fonts.google.com/specimen/Montserrat)
+- Family: [Montserrat]
 - Weights: 500, 700
 
 - Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
