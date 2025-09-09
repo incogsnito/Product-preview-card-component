@@ -1,0 +1,22 @@
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+
+@font-face{
+  font-family: "Montserrat";
+  src: url("./Montserrat/Montserrat-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face{
+  font-family: "Fraunces";
+  src: url("./Fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf") format("truetype")
+}
+
+body{
+  background-color: hsl(30, 38%, 92%);
+  font-family: "Montserrat";
+  padding: 0;
+  margin: 0;
+}
