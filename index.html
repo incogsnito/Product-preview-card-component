@@ -5,18 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Product-preview-card</title>
   <link rel="icon" href="./product-preview-card-component-main/images/favicon-32x32.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="layout">
-      <img src="./product-preview-card-component-main/images/image-product-mobile.jpg"alt="Gabrielle Chanel Cologne.">
+    <div class="image__container">
+      <img src="./product-preview-card-component-main/images/image-product-mobile.jpg" alt="Gabrielle Chanel Cologne." class="cologne mobile">
+      <img src="./product-preview-card-component-main/images/image-product-desktop.jpg" alt="Gabrielle Chanel Cologne." class=" cologne desktop">
+    </div>
     <div class="container">
-      <h2>Perfume</h2>
+      <h2 class="perfume">Perfume</h2>
       <h1>Gabrielle Essence Eau De parfum</h1>
-      <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+      <p class="card__sentence">A floral, solar and voluptuous interpretation composed by Olivier Polge, 
       Perfumer-Creator for the House of CHANEL.</p>
     <div class="prices">
-      <h2>$149.99</h2>
-      <p>$169.99</p>
+      <h2 class="price__number">$149.99</h2>
+      <p class="strikethrough">$169.99</p>
     </div>
     <div class="cart">
      <button class="cart__button"><img src="./product-preview-card-component-main/images/icon-cart.svg" alt="Cart">Add to Cart</button>
